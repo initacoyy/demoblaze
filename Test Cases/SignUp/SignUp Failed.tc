@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUp Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fd2b524-ee37-4cce-b2cc-d4804f4c04c3</testCaseGuid>
+</TestCaseEntity>
