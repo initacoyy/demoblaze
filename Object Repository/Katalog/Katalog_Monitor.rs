@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Cart Home</name>
+   <name>Katalog_Monitor</name>
    <tag></tag>
-   <elementGuidId>61491189-3347-447f-9866-af908f89f033</elementGuidId>
+   <elementGuidId>1968f658-1c58-4c69-9df6-d480176ecde3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#cartur</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='cartur']</value>
+         <value>(//a[@id='itemc'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Cart&quot;i]</value>
+         <value>internal:role=link[name=&quot;Monitors&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,126 +29,142 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1a83264b-6071-4e2e-afa1-7508bbbbc707</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>bc012862-9a6d-4631-8e46-79420130ba66</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>cartur</value>
-      <webElementGuid>bfb7c4f0-b0a2-4385-b39d-392d3e0c50b6</webElementGuid>
+      <webElementGuid>beecf83a-b6a4-4c54-96f7-4117944cc312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>cart.html</value>
-      <webElementGuid>2ad543a6-171b-4680-9105-18539083ea01</webElementGuid>
+      <value>#</value>
+      <webElementGuid>88a9e9db-b793-4ac8-96d9-b846ca826aea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>itemc</value>
+      <webElementGuid>c74d4aa8-cfcf-466d-8e11-ea5d696da907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>byCat('monitor')</value>
+      <webElementGuid>32afd7a1-e32a-4fba-b4bc-33e4d240b159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item</value>
+      <webElementGuid>187d4a94-727f-4f6f-baca-6f604bdcd475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cart</value>
-      <webElementGuid>704726f9-2762-41a1-a8a1-3f3308514b1b</webElementGuid>
+      <value>Monitors</value>
+      <webElementGuid>bf03777c-a468-4f9c-82b8-d227fe095330</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cartur&quot;)</value>
-      <webElementGuid>04abbe0c-155c-458b-a742-03e471341ac6</webElementGuid>
+      <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;list-group&quot;]/a[@id=&quot;itemc&quot;]</value>
+      <webElementGuid>bc7b06d0-1bc0-4e1c-9e24-5e737884adcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='cartur']</value>
-      <webElementGuid>b1968348-4e86-44d6-82b3-f707b5a07710</webElementGuid>
+      <value>(//a[@id='itemc'])[3]</value>
+      <webElementGuid>09e47ca1-b3dd-45bb-93c0-6fb0aa6f6f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li[4]/a</value>
-      <webElementGuid>dcd51e0d-43aa-4d8a-8185-eacfe6ca1860</webElementGuid>
+      <value>//div[@id='contcont']/div/div/div/a[4]</value>
+      <webElementGuid>7cc40f40-aaff-4222-8ba4-891ee1b1050d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Cart')]</value>
-      <webElementGuid>120d20b7-fb46-4f1a-9b55-6704fa6a6c55</webElementGuid>
+      <value>//a[contains(text(),'Monitors')]</value>
+      <webElementGuid>d2eec956-6b39-4a0d-90a8-4fa0ed62d92d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[3]</value>
-      <webElementGuid>d01fc50d-f1cc-44a7-ae9b-dee63b3c6983</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::a[3]</value>
+      <webElementGuid>15c157c6-98aa-4b64-92d6-152eb9800015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[5]</value>
-      <webElementGuid>55db979a-84a3-4242-afe6-0d67f4d19bfb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[4]</value>
+      <webElementGuid>869e1d17-00ad-4e9c-ac00-be81553d01b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[6]</value>
-      <webElementGuid>665325cf-0284-48ad-9b29-7b10fc671c35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Samsung galaxy s6'])[1]/preceding::a[2]</value>
+      <webElementGuid>fce0656a-13a9-46da-9b57-4f98a4483ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cart']/parent::*</value>
-      <webElementGuid>fd4e3727-2642-4389-8427-b4b7a96d32a2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[3]</value>
+      <webElementGuid>0e2d5920-edae-4394-9af1-dcf16f962906</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monitors']/parent::*</value>
+      <webElementGuid>c96c4070-1efd-4aa3-be43-cb6e60269337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'cart.html')]</value>
-      <webElementGuid>fecb0996-0e7d-48cc-ab62-1258e7074dce</webElementGuid>
+      <value>(//a[contains(@href, '#')])[11]</value>
+      <webElementGuid>9814d0e7-ec17-443b-aa69-1738758d25ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
-      <webElementGuid>4878159e-dfe6-40ee-8047-066a9e91207a</webElementGuid>
+      <value>//a[4]</value>
+      <webElementGuid>734b03fd-f5e2-4b07-8553-82ce2b997d55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'cartur' and @href = 'cart.html' and (text() = 'Cart' or . = 'Cart')]</value>
-      <webElementGuid>611cd2d3-4d37-4edc-8ee3-19caa851d002</webElementGuid>
+      <value>//a[@href = '#' and @id = 'itemc' and (text() = 'Monitors' or . = 'Monitors')]</value>
+      <webElementGuid>9c365aaf-61a5-49e6-a214-10d193b6b806</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
