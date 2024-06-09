@@ -23,8 +23,14 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('SignUp/Buttpm SignUp Home'))
 
-WebUI.setText(findTestObject('Input_Data/input Username signup'), 'tacoyy')
+int RN
 
+RN = ((Math.random() * 500) as int)
+
+WebUI.setText(findTestObject('Input_Data/input Username signup'), 'tacoyy' + RN)
+
+//WebUI.setText(findTestObject('Input_Data/input Username signup'), 'taemin1')
+//WebUI.setText(findTestObject('Input_Data/input Username signup'), 'tacoyy')
 WebUI.setText(findTestObject('Input_Data/input Password signup'), 'tacoyy')
 
 WebUI.click(findTestObject('SignUp/Button SignUp'))

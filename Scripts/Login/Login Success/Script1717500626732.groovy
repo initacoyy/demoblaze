@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Login/Button Login Home'))
 
-WebUI.setText(findTestObject('Input_Data/input Username login'), 'taemin1')
+WebUI.setText(findTestObject('Input_Data/input Username login'), 'tacoyy')
 
-WebUI.setText(findTestObject('Input_Data/input Password login'), 'taemin1')
+WebUI.setText(findTestObject('Input_Data/input Password login'), 'tacoyy')
 
 WebUI.click(findTestObject('Login/button Login'))
 
