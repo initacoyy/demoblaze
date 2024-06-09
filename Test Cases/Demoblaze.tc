@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dari login > Katalog > Cart > Place Order</description>
+   <name>Demoblaze</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fbeda3c0-66c2-49f2-be9c-906da17dad0e</testCaseGuid>
+</TestCaseEntity>
