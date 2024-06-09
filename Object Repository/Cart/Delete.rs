@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;deleteItem('e4bd8aa4-ccff-a7d1-9874-f4ff0d213386')&quot;]</value>
+         <value>//*[@href = '#' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Delete' or . = 'Delete')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c6e46b77-88ee-4cb4-8406-636a660d3fab</webElementGuid>
+      <webElementGuid>c257995e-6ff5-4ae8-a06b-f59e1ef519a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>ad36e6df-7919-49fd-9ecf-a1503d061ea1</webElementGuid>
+      <webElementGuid>57b358b0-e401-4e94-b120-0951c4baf4fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>deleteItem('e4bd8aa4-ccff-a7d1-9874-f4ff0d213386')</value>
-      <webElementGuid>ed03da3b-81a7-48aa-a0d8-1ac88418a28a</webElementGuid>
+      <webElementGuid>9d926227-0b8d-4def-94b8-d082127d3dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>1ca8ad38-1564-432f-a5d8-ca90c47821c3</webElementGuid>
+      <webElementGuid>ab694c22-cc4f-4aad-a48a-71793bf3fd2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/tr[@class=&quot;success&quot;]/td[4]/a[1]</value>
-      <webElementGuid>67157544-c09e-463f-b4a5-e3137c7e2e16</webElementGuid>
+      <webElementGuid>cc19a522-b026-46db-b8d7-70ea25b2b58a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;deleteItem('e4bd8aa4-ccff-a7d1-9874-f4ff0d213386')&quot;]</value>
-      <webElementGuid>198a6323-1b8d-42ee-afa0-e11886742f0a</webElementGuid>
+      <webElementGuid>26261c3a-863b-4d3f-b842-d867e60edfff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='tbodyid']/tr/td[4]/a</value>
-      <webElementGuid>94b7a8e8-1388-423d-8d22-5ca9bcf90b0e</webElementGuid>
+      <webElementGuid>8f4dcbab-72e2-4b00-8a8c-637bf87ddcbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Delete')]</value>
-      <webElementGuid>c1dfc46e-b84a-4f67-b0bf-1b48c3df66e6</webElementGuid>
+      <webElementGuid>f29909c7-838c-4b8e-b6d0-f387a49d53d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apple monitor 24'])[1]/following::a[1]</value>
-      <webElementGuid>8fe339be-f007-4496-b905-e3355a8ccd33</webElementGuid>
+      <webElementGuid>b723b976-30a4-44c9-a101-82ad31690f92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[1]/following::a[1]</value>
-      <webElementGuid>bf5da3eb-aa1e-4562-8886-a1c0bfb75042</webElementGuid>
+      <webElementGuid>e4ca91b6-5610-4541-8af0-ad741975c9a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::a[1]</value>
-      <webElementGuid>4b028f9a-253d-49bf-9e0c-39ac9b5078ed</webElementGuid>
+      <webElementGuid>4c4a424b-0b09-4ebf-898e-88466b304cd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Place Order'])[1]/preceding::a[1]</value>
-      <webElementGuid>f5cf8613-8ddf-42c6-885a-4699aa98068a</webElementGuid>
+      <webElementGuid>73744d8c-7be3-4d71-a93b-94f37e022e5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>803b99d9-37d6-47c3-b974-502c0cbea4ff</webElementGuid>
+      <webElementGuid>582c5f1c-9467-4c5a-84f2-d1aa0c40b2ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
-      <webElementGuid>6798cb58-040a-4378-ac81-5ec0bd8cf58d</webElementGuid>
+      <webElementGuid>422fdf3a-e9b8-4dda-a955-4b49d62d9692</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/a</value>
-      <webElementGuid>b4484fa1-e9fe-40e5-9558-ef1583265576</webElementGuid>
+      <webElementGuid>13341c7e-cc6d-4f16-b651-36f065fce507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>5d588114-1276-4b89-a5ff-cef11c29990b</webElementGuid>
+      <webElementGuid>bc66845b-4f4b-4e6f-9068-6e89c03fe59b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
